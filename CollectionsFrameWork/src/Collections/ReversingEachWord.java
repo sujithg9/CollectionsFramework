@@ -23,6 +23,7 @@ public class ReversingEachWord {
 		}
 		System.out.println(builder);
 	}
+	@SuppressWarnings("resource")
 	public static void main(String[] args){
 		ReversingEachWord eachWord=new ReversingEachWord();
 		Scanner sn=new Scanner(System.in);
