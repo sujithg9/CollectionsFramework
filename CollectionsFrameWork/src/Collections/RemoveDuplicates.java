@@ -7,10 +7,10 @@ public class RemoveDuplicates {
 public static void main(String[] args){
 	String name="sujiths";
 	String nameWithoutDups ="";
-	LinkedHashSet<String> set=new LinkedHashSet<>();
+	LinkedHashSet<String> set=new LinkedHashSet<String>();
 	for(char s:name.toCharArray()){
-		String str= String.valueOf(s);
-		set.add(str);	
+		String string= String.valueOf(s);
+		set.add(string);	
 	}
 //	for(String dupremvname:set){
 //		nameWithoutDups+=dupremvname;
